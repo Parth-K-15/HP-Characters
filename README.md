@@ -90,6 +90,8 @@ Ensure an active internet connection as the app fetches data from the Potter API
 
 ## Credits
 
+- Potter_Repo: [potterapi](https://github.com/fedeperin/potterapi/tree/main)
+
 - API: [Potter API](https://potterapi-fedeperin.vercel.app/en/characters).
 
 - Framework: [Bootstrap](https://getbootstrap.com/).
