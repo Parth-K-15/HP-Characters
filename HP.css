@@ -1,13 +1,55 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.navbar-brand #Tit{
+body {
+    visibility: hidden;
+}
+
+.navbar-brand #Tit {
     font-size: 1.25em;
     font-family: cursive;
 }
 
-.card #DOB{
-    font-size: 13px;
+.container {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    z-index: -1;
+    margin: auto;
+    max-width: 100%;
+    max-height: 500px;
+    /* Adjust this as needed */
+    object-fit: contain;
+    /* Ensures the image fits properly without stretching */
+}
+
+/* Adjust controls to be in the proper position */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    /* Adjust the width of the controls */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 100% 100%;
+    filter: invert(100%); /* Converts white arrows to black */
+    /* Properly size the icons */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Add semi-transparent background for better readability */
+    width: 70%;
+    position: absolute;
+    /* top: 50%; */
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, 20%);
 }
