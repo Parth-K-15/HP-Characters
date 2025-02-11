@@ -42,11 +42,11 @@ This project is a simple web-based application that fetches and displays informa
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Parth-K-15/HP-Characters
 
 2. **Navigate to the Project Directory**
    ```bash
-   cd <repository_name>
+   cd https://github.com/Parth-K-15/HP-Characters
 
 3. Open the HTML File
 Open index.html in any modern web browser to view the application.
